@@ -4,7 +4,11 @@ import {
 } from './actionTypes';
 
 const inittialState = {
-    products: []
+    products: [],
+    page: 1,
+    loading: false,
+    error: ''
+    
 };
 
 const product = (state = inittialState, action) => {
