@@ -1,0 +1,32 @@
+.CartFooter {
+	background-color: #6e7dff;
+	display: flex;
+	align-items: center;
+	color: white;
+	padding: 10px;
+ }
+
+.CartFooterButton {
+	height: 30px;
+	border: unset;
+	text-transform: uppercase;
+	color: white;
+	background-color: #0314B4;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.CartFooterForm {
+  display: flex;
+  width: 100%;
+}
+
+.CartFooterInput {
+  height: 30px;
+  margin-right: 10px;
+  flex-grow: 1;
+  padding: 0 0 0 10px;
+  border: unset;
+  border-radius: 5px;
+}
